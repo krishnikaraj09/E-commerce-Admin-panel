@@ -1,0 +1,430 @@
+[
+    {
+        "id": 1,
+        "name": "Clothing",
+        "productCount": 60,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s",
+        "subCategories": [
+            {
+                "name": "Men",
+                "image": "https://cdn.luxe.digital/media/20230309133931/best-men-online-shopping-luxe-digital.jpg",
+                "sub": [
+                    {
+                        "name": "T-Shirts",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Shirts",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Jeans",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Trousers",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Jackets",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    }
+                ]
+            },
+            {
+                "name": "Women",
+                "image": "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-1e44ovcai2nakikcamtl8t83f3-20190829163645.Medi.jpeg",
+                "sub": [
+                    {
+                        "name": "Tops",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Kurtis",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Jeans",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Sarees",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Dresses",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    }
+                ]
+            },
+            {
+                "name": "Kids",
+                "image": "https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkcyUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000",
+                "sub": [
+                    {
+                        "name": "T-Shirts",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Shorts",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "Frocks",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    },
+                    {
+                        "name": "School Wear",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SOppRlnbYW4gopAEudixY3rT_H0_xL0EqA&s"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Footwear",
+        "productCount": 40,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0GkROOgrhdoeTMEIX7bpMro5XcsZ3lCoVBA&s",
+        "subCategories": [
+            {
+                "name": "Men",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQy7WcIFoubfqMbhsT72m5abfQwtVj4E1Pg&s",
+                "sub": [
+                    {
+                        "name": "Casual Shoes",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd7jE0p-TAhpimwHn-oB6pZ0JSyRh-S6ypqA&s"
+                    },
+                    {
+                        "name": "Sports Shoes",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjdcmYJ4QYzYPXP3xTTIJSRBzuz8HUnP8GQ&s"
+                    },
+                    {
+                        "name": "Formal Shoes",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpxAhaP8WiJIvHihbqbgRVI_xwjlmlkB3TQ&s"
+                    },
+                    {
+                        "name": "Sandals",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrML3zCQA9JtmwaOIJ-ZWd6G1W6NCN0WZU5Q&s"
+                    }
+                ]
+            },
+            {
+                "name": "Women",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQy7WcIFoubfqMbhsT72m5abfQwtVj4E1Pg&s",
+                "sub": [
+                    {
+                        "name": "Heels",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHn24LmDCvInndjxTo_EE1iniUz3e2HVjpxA&s"
+                    },
+                    {
+                        "name": "Flats",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2xg11jq_QBkyQ0NXFNQtXSxUqKqYxAD2PA&s"
+                    },
+                    {
+                        "name": "Sneakers",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8v0eMBGmb6_7O-Iz9Tlatm1ESpYp0uMe1A&s"
+                    },
+                    {
+                        "name": "Sandals",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMMGO6nFxRwTE3aS8z7s3NYn_qwdS8yESSg&s"
+                    }
+                ]
+            },
+            {
+                "name": "Kids",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQy7WcIFoubfqMbhsT72m5abfQwtVj4E1Pg&s",
+                "sub": [
+                    {
+                        "name": "Sports Shoes",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcG_gQi1dzVgMqFaXAPzZlpE5H8LpC6MuZPQ&s"
+                    },
+                    {
+                        "name": "School Shoes",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOHbn13UiNx0oswFdlSoP5kzNn2CsgmkJwFg&s"
+                    },
+                    {
+                        "name": "Sandals",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uVV62ptwJApYoBCWBDPpbDU3WZEiT5_wVA&s"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Accessories",
+        "productCount": 30,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReehBN3D21JSsqHXGAk87UU0Y38eKiBy7Myg&s",
+        "subCategories": [
+            {
+                "name": "Fashion Accessories",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmhjEqEvs0sCHkLSiBFxX84pNmtM507v_mgg&s",
+                "sub": [
+                    {
+                        "name": "Bags",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3Z9WdFh-SIB5HAM0wG2vRR8UkXIRq8-ZpA&s"
+                    },
+                    {
+                        "name": "Belts",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8t3Ntt3ThdLU6XFte3m_CAEpjBf7MqTbeQ&s"
+                    },
+                    {
+                        "name": "Caps",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMu67Mgv2dkNYTRIOrQQarw6RyDEfzl-NNQ&s"
+                    },
+                    {
+                        "name": "Wallets",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_1J3eWZQD25DQWl58y3D49GeudrFqPs7XA&s"
+                    }
+                ]
+            },
+            {
+                "name": "Jewellery",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-3UshwizA1PnD8TpOdK3gWuLjMo4oZ6L2Q&s",
+                "sub": [
+                    {
+                        "name": "Earrings",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-3UshwizA1PnD8TpOdK3gWuLjMo4oZ6L2Q&s"
+                    },
+                    {
+                        "name": "Necklaces",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpO6TuZGlNPAIDhIl3nFjd4Wqzt_K9Kbzhew&s"
+                    },
+                    {
+                        "name": "Bracelets",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSi0fcrxmhKqPc_ctYAzsAYwr6UVtZ17sqPA&s"
+                    },
+                    {
+                        "name": "Rings",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-75G9FsCUZnVFS2VnLtDxswIpuBpsfjCXfg&s"
+                    }
+                ]
+            },
+            {
+                "name": "Tech Accessories",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-3UshwizA1PnD8TpOdK3gWuLjMo4oZ6L2Q&s",
+                "sub": [
+                    {
+                        "name": "Watches",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrpmFYqBZD6tyUwSVlM8PxqPZk63eAeSGJxg&s"
+                    },
+                    {
+                        "name": "Smartbands",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwZnORik3CBQkDKYVP6vstH7--YWpUXUwWQ&s"
+                    },
+                    {
+                        "name": "Phone Covers",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7NbBto3Yc4p96Q0nvEm2nUxMDUVVbhTt9HA&s"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Electronics",
+        "productCount": 30,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyHDp3pcSY53jV1UBNopEMLB-XEFtN7mojQ&s",
+        "subCategories": [
+            {
+                "name": "Mobiles",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyHDp3pcSY53jV1UBNopEMLB-XEFtN7mojQ&s",
+                "sub": [
+                    {
+                        "name": "Smartphones",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_twUspD-KDV8pbyWNbVQpX0LRmekPQy2QzA&s"
+                    },
+                    {
+                        "name": "Feature Phones",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fcibuzn2f4GeHh8ZJ0APjPJXr2OeZspBMQ&s"
+                    },
+                    {
+                        "name": "Refurbished Phones",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIHo6swUGpGcPDqfxDz8xbpkCj1QCdzaugEQ&s"
+                    }
+                ]
+            },
+            {
+                "name": "Computers",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyHDp3pcSY53jV1UBNopEMLB-XEFtN7mojQ&s",
+                "sub": [
+                    {
+                        "name": "Laptops",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUFkFi4fyEiLX-MwsVLBc2Wkn3ePouq1YFRw&s"
+                    },
+                    {
+                        "name": "Monitors",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdFus2pC8UBJoiH3g3VvLcdl8k5jLFlTqqmg&s"
+                    },
+                    {
+                        "name": "Keyboards",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2oIY2eR4DwVgC71-uO3vVg-UdcJPuYo2kxA&s"
+                    },
+                    {
+                        "name": "Mice",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFgjDoO5TxGi0JXpw-U0Jxok0YH0svzfttw&s"
+                    }
+                ]
+            },
+            {
+                "name": "Home Appliances",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyHDp3pcSY53jV1UBNopEMLB-XEFtN7mojQ&s",
+                "sub": [
+                    {
+                        "name": "Microwave",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdU_r-PT3n2AIWMhS1qh4LK_S2sPG0tygGQ&s"
+                    },
+                    {
+                        "name": "Refrigerator",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Zx2mMd1RuLKtm6WgXs5NQ6XXj-nTlPDM6Q&s"
+                    },
+                    {
+                        "name": "Washing Machine",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pvwU0jaVb_C8e0F8CGMtcerh-fO0XVaJ5g&s"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Home Decor",
+        "productCount": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjyrBOqeS2R9xNwkFxIufOO-h3f87Zq79qg&s",
+        "subCategories": [
+            {
+                "name": "Living Room",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjyrBOqeS2R9xNwkFxIufOO-h3f87Zq79qg&s",
+                "sub": [
+                    {
+                        "name": "Wall Art",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUr0jT-mfjJHxP2ph05-wzTZW_blr5ZXl1Lg&s"
+                    },
+                    {
+                        "name": "Showpieces",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE8zHElXp4GPhvAhor7MLwK5gOTkPPGeAD6Q&s"
+                    },
+                    {
+                        "name": "Cushions",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7kug1LmZnxqtvZap9_8WXlK8ppE22CQhS3g&s"
+                    },
+                    {
+                        "name": "Curtains",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2_ByfTvzau6nccFdkvhTUhP3KcgKTjVb8Rg&s"
+                    }
+                ]
+            },
+            {
+                "name": "Bedroom",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjyrBOqeS2R9xNwkFxIufOO-h3f87Zq79qg&s",
+                "sub": [
+                    {
+                        "name": "Bedsheets",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU7VE63Gh_PFcq1uXB2uU6rQZuxGjwtEA0rQ&s"
+                    },
+                    {
+                        "name": "Blankets",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRut8sLExEFS79qrFE3TbgM20YVWfx1mio4Kw&s"
+                    },
+                    {
+                        "name": "Photo Frames",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkA2KBRBnLGBJdnmrRyy_8yxtPZBs9s_BC3g&s"
+                    }
+                ]
+            },
+            {
+                "name": "Lighting",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjyrBOqeS2R9xNwkFxIufOO-h3f87Zq79qg&s",
+                "sub": [
+                    {
+                        "name": "Table Lamps",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3zi7j59rktFhg3v0gyaMF2hXu9n1Q8KpXKQ&s"
+                    },
+                    {
+                        "name": "Ceiling Lights",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-sHhDWtZCQ1SiBgUj6z5Tsq4ya9cPR6l4Dw&s"
+                    },
+                    {
+                        "name": "Decorative Lamps",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDojH1G1cc615H4HLrwr31tdaWpKjX0fG0BA&s"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Beauty",
+        "productCount": 50,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtQSBc0ycnnlZNXLXfKFflu7wJKqem2ZgKQ&s",
+        "subCategories": [
+            {
+                "name": "Makeup",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtQSBc0ycnnlZNXLXfKFflu7wJKqem2ZgKQ&s",
+                "sub": [
+                    {
+                        "name": "Lipstick",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjMkGUyqYI52QLeVqb9fS-fr5IYZjQjIfGw&s"
+                    },
+                    {
+                        "name": "Foundation",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdnEhbEQXKb8FeWQw5Hf_yNgubGDJZoBjlA&s"
+                    },
+                    {
+                        "name": "Eyeliner",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2SlmM2YxEdbHSd6PffUvv05r-I0Krxk95Q&s"
+                    },
+                    {
+                        "name": "Blush",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdEhnA9PnZ4p5Oo8Rvhb_n9HbVYevsxyVpxg&s"
+                    }
+                ]
+            },
+            {
+                "name": "Skincare",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtQSBc0ycnnlZNXLXfKFflu7wJKqem2ZgKQ&s",
+                "sub": [
+                    {
+                        "name": "Moisturizers",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7EsQgMZTMgXf7iF6mQTarIWtUorZc6CPikA&s"
+                    },
+                    {
+                        "name": "Serums",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImxcZ2P_wPKln8cctITv4u1xfWc2VzLoYvw&s"
+                    },
+                    {
+                        "name": "Face Wash",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRudR60pOT9sF7J5967lOOgjpJEF4lh0eTQ6Q&s"
+                    },
+                    {
+                        "name": "Masks",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2Yty5cUMb6CZqS2OSSZVizwsJj3RtY3PxA&s"
+                    }
+                ]
+            },
+            {
+                "name": "Haircare",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtQSBc0ycnnlZNXLXfKFflu7wJKqem2ZgKQ&s",
+                "sub": [
+                    {
+                        "name": "Shampoo",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzjVhEYfI2F2VStQhtoC0XZgDtHMJpXpsPw&s"
+                    },
+                    {
+                        "name": "Conditioner",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8zC-AwjBJIdGd9T0iy3jKLghp-WLSmh1z4Q&s"
+                    },
+                    {
+                        "name": "Hair Oil",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk4WnXlXNEkUjkWCPRy1VJVhlYGqqhORO09g&s"
+                    },
+                    {
+                        "name": "Hair Serum",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREHbaJv8ZJoE1-y-oqa4L1k75H2SgZ1qk4pA&s"
+                    }
+                ]
+            }
+        ]
+    }
+]

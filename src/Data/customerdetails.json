@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "name": "Rajpurohit Krishnika",
+    "email": "krishnika@example.com",
+    "phone": "9876543210",
+    "status": "Active",
+    "address": {
+      "billing": {
+        "street": "123 Main St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zip": "302001"
+      },
+      "shipping": {
+        "street": "456 Market St",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "zip": "302002"
+      }
+    },
+    "orderHistory": [
+      {
+        "orderId": 101,
+        "date": "2025-11-10",
+        "total": 2500,
+        "items": [
+          {
+            "productId": 1,
+            "name": "Men T-Shirt",
+            "quantity": 2,
+            "price": 500
+          },
+          {
+            "productId": 2,
+            "name": "Jeans",
+            "quantity": 1,
+            "price": 1500
+          }
+        ],
+        "status": "Delivered"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Amit Sharma",
+    "email": "amit@example.com",
+    "phone": "9876543211",
+    "status": "Inactive",
+    "address": {
+      "billing": {
+        "street": "789 MG Road",
+        "city": "Udaipur",
+        "state": "Rajasthan",
+        "zip": "313001"
+      },
+      "shipping": {
+        "street": "789 MG Road",
+        "city": "Udaipur",
+        "state": "Rajasthan",
+        "zip": "313001"
+      }
+    },
+    "orderHistory": []
+  },
+  {
+    "id": 3,
+    "name": "Neha Singh",
+    "email": "neha@example.com",
+    "phone": "9876543212",
+    "status": "Active",
+    "address": {
+      "billing": {
+        "street": "12 Park Lane",
+        "city": "Jodhpur",
+        "state": "Rajasthan",
+        "zip": "342001"
+      },
+      "shipping": {
+        "street": "12 Park Lane",
+        "city": "Jodhpur",
+        "state": "Rajasthan",
+        "zip": "342001"
+      }
+    },
+    "orderHistory": [
+      {
+        "orderId": 102,
+        "date": "2025-11-12",
+        "total": 1800,
+        "items": [
+          {
+            "productId": 3,
+            "name": "Women Dress",
+            "quantity": 1,
+            "price": 1200
+          },
+          {
+            "productId": 4,
+            "name": "Handbag",
+            "quantity": 1,
+            "price": 600
+          }
+        ],
+        "status": "Shipped"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Rohit Verma",
+    "email": "rohit@example.com",
+    "phone": "9876543213",
+    "status": "Active",
+    "address": {
+      "billing": {
+        "street": "34 MG Road",
+        "city": "Kota",
+        "state": "Rajasthan",
+        "zip": "324001"
+      },
+      "shipping": {
+        "street": "34 MG Road",
+        "city": "Kota",
+        "state": "Rajasthan",
+        "zip": "324001"
+      }
+    },
+    "orderHistory": [
+      {
+        "orderId": 103,
+        "date": "2025-11-15",
+        "total": 3200,
+        "items": [
+          {
+            "productId": 5,
+            "name": "Shoes",
+            "quantity": 2,
+            "price": 1600
+          }
+        ],
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Priya Mehta",
+    "email": "priya@example.com",
+    "phone": "9876543214",
+    "status": "Active",
+    "address": {
+      "billing": {
+        "street": "56 City Center",
+        "city": "Bikaner",
+        "state": "Rajasthan",
+        "zip": "334001"
+      },
+      "shipping": {
+        "street": "56 City Center",
+        "city": "Bikaner",
+        "state": "Rajasthan",
+        "zip": "334001"
+      }
+    },
+    "orderHistory": []
+  }
+]

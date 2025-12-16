@@ -1,0 +1,155 @@
+SEARCH:
+	const [categories, setCategories] = useState([]);
+	const [localProducts, setLocalProducts] = useState([]);
+
+	// All Existing state variable
+	const [productName, setProductName] = useState("");
+	const [productSKU, setProductSKU] = useState("");
+	const [brand, setBrand] = useState("");
+	const [category, setCategory] = useState("");
+	const [categoryId, setCategoryId] = useState("");
+	const [subCategory, setSubCategory] = useState("");
+	const [subSubCategory, setSubSubCategory] = useState("");
+	const [price, setPrice] = useState("");
+	const [oldPrice, setOldPrice] = useState("");
+	const [discount, setDiscount] = useState("");
+	const [rating, setRating] = useState("");
+	const [stock, setStock] = useState("");
+	const [image, setImage] = useState("");
+	const [gallery, setGallery] = useState([]);
+	const [tags, setTags] = useState([]);
+	const [color, setColor] = useState([]);
+	const [size, setSize] = useState([]);
+	const [shortDescription, setShortDescription] = useState("");
+	const [fullDescription, setFullDescription] = useState("");
+	const [status, setStatus] = useState("");
+
+REPLACE:
+	const [categories, setCategories] = useState([]);
+	const [subCategories, setSubCategories] = useState([]);
+	const [subSubCategories, setSubSubCategories] = useState([]);
+	const [localProducts, setLocalProducts] = useState([]);
+
+	// All Existing state variable
+	const [productName, setProductName] = useState("");
+	const [productSKU, setProductSKU] = useState("");
+	const [brand, setBrand] = useState("");
+	const [category, setCategory] = useState("");
+	const [categoryId, setCategoryId] = useState("");
+	const [subCategory, setSubCategory] = useState("");
+	const [subSubCategory, setSubSubCategory] = useState("");
+	const [price, setPrice] = useState("");
+	const [oldPrice, setOldPrice] = useState("");
+	const [discount, setDiscount] = useState("");
+	const [rating, setRating] = useState("");
+	const [stock, setStock] = useState("");
+	const [image, setImage] = useState("");
+	const [gallery, setGallery] = useState([]);
+	const [tags, setTags] = useState([]);
+	const [color, setColor] = useState([]);
+	const [size, setSize] = useState([]);
+	const [shortDescription, setShortDescription] = useState("");
+	const [fullDescription, setFullDescription] = useState("");
+	const [status, setStatus] = useState("");
+
+
+SEARCH:
+	// Auto-calculate price when oldPrice or discount changes
+	useEffect(() => {
+		if (oldPrice && discount) {
+			const calculatedPrice = Number(oldPrice) * (1 - Number(discount) / 100);
+			setPrice(calculatedPrice.toFixed(2));
+		} else {
+			setPrice("");
+		}
+	}, [oldPrice, discount]);
+
+REPLACE:
+	// Auto-calculate price when oldPrice or discount changes
+	useEffect(() => {
+		if (oldPrice && discount) {
+			const calculatedPrice = Number(oldPrice) * (1 - Number(discount) / 100);
+			setPrice(calculatedPrice.toFixed(2));
+		} else {
+			setPrice("");
+		}
+	}, [oldPrice, discount]);
+
+	// Update subCategories and subSubCategories when category changes
+	useEffect(() => {
+		const selectedCat = categories.find(c => c.name === category);
+		if (selectedCat && selectedCat.subCategories) {
+			setSubCategories(selectedCat.subCategories);
+		} else {
+			setSubCategories([]);
+		}
+		setSubCategory("");
+		setSubSubCategories([]);
+		setSubSubCategory("");
+	}, [category, categories]);
+
+	// Update subSubCategories when subCategory changes
+	useEffect(() => {
+		if (subCategory && subCategories.length > 0) {
+			const selectedSubCat = subCategories.find(sc => sc.name === subCategory);
+			if (selectedSubCat && selectedSubCat.sub) {
+				setSubSubCategories(selectedSubCat.sub);
+			} else {
+				setSubSubCategories([]);
+			}
+		} else {
+			setSubSubCategories([]);
+		}
+		setSubSubCategory("");
+	}, [subCategory, subCategories]);
+
+
+SEARCH:
+				<label className="block mb-1 font-medium">Sub Category</label>
+				<input
+					type="text"
+					value={subCategory}
+					onChange={(e) => setSubCategory(e.target.value)}
+					className="border border-black rounded w-full p-2 dark:text-black" />
+				{error.subCategory && <p className="text-red-500 text-sm font-semibold">{error.subCategory}</p>}
+
+				</div>
+				<div>
+					<label className="block mb-1 font-medium">Sub Sub Category</label>
+					<input
+						type="text"
+						value={subSubCategory}
+						onChange={(e) => setSubSubCategory(e.target.value)}
+						className="border border-black rounded w-full p-2 dark:text-black" />
+					{error.subSubCategory && <p className="text-red-500 text-sm font-semibold">{error.subSubCategory}</p>}
+
+REPLACE:
+				<label className="block mb-1 font-medium">Sub Category</label>
+				<select
+					value={subCategory}
+					onChange={(e) => setSubCategory(e.target.value)}
+					className="border border-black rounded w-full p-2 dark:text-black"
+					disabled={subCategories.length === 0}
+				>
+					<option value="">Select subcategory</option>
+					{subCategories.map((subCat, index) => (
+						<option key={index} value={subCat.name}>{subCat.name}</option>
+					))}
+				</select>
+				{error.subCategory && <p className="text-red-500 text-sm font-semibold">{error.subCategory}</p>}
+
+				</div>
+				<div>
+					<label className="block mb-1 font-medium">Sub Sub Category</label>
+					<select
+						value={subSubCategory}
+						onChange={(e) => setSubSubCategory(e.target.value)}
+						className="border border-black rounded w-full p-2 dark:text-black"
+						disabled={subSubCategories.length === 0}
+					>
+						<option value="">Select sub-subcategory</option>
+						{subSubCategories.map((subSubCat, index) => (
+							<option key={index} value={subSubCat.name}>{subSubCat.name}</option>
+						))}
+					</select>
+					{error.subSubCategory && <p className="text-red-500 text-sm font-semibold">{error.subSubCategory}</p>}

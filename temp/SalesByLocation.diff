@@ -1,0 +1,14 @@
+<div className="bg-white p-4 rounded-xl shadow h-[350px] dark:bg-white/90">
+            <p className="text-sm font-bold text-gray-500 text-center mb-1">Sales By Location</p>
+            <Doughnut data={data} options={options} className="items-center justify-center" />
+        </div>
+    )
+=======
+    return (
+        <div className="bg-white p-4 rounded-xl shadow dark:bg-white/90 min-h-[300px] max-h-[500px] sm:min-h-[350px] sm:max-h-[450px]">
+            <p className="text-xs sm:text-sm font-bold text-gray-500 text-center mb-1">Sales By Location</p>
+            <div className="h-full w-full flex items-center justify-center">
+                <Doughnut data={data} options={{...options, maintainAspectRatio: false}} />
+            </div>
+        </div>
+    )
