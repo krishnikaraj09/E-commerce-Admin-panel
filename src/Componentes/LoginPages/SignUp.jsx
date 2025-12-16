@@ -115,7 +115,7 @@ const SignUp = () => {
                             onChange={(e) => setConfirmPassword(e.target.value)}
                             className="flex-1 outline-none text-gray-700 bg-transparent"
                         />
-                        <IconButton onClick={handleClickShowPassword} size="small" className="p-0 ml-2">
+                        <IconButton onClick={handleClickShowConfirmPassword} size="small" className="p-0 ml-2">
                             {showPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
                         </IconButton>
                     </div>
