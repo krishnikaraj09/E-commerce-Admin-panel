@@ -116,7 +116,7 @@ const SignUp = () => {
                             className="flex-1 outline-none text-gray-700 bg-transparent"
                         />
                         <IconButton onClick={handleClickShowConfirmPassword} size="small" className="p-0 ml-2">
-                            {showPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
+                            {showConfirmPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
                         </IconButton>
                     </div>
                     {error.confirmPassword && <p className='text-red-800 text-base font-semibold text-center'>{error.confirmPassword}</p>}
