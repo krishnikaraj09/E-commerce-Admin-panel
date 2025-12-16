@@ -16,7 +16,7 @@
     "brand": "Cotton Comfort",
     "sku": "TSHIRT-C-001",
     "shortDescription": "Soft cotton, everyday classic tee.",
-    "fullDescription": "Experience ultimate comfort with this classic crew-neck t-shirt. Made from 100% premium soft cotton, it offers breathability and a great fit. Ideal for layering or wearing on its own.",
+    "description": "Experience ultimate comfort with this classic crew-neck t-shirt. Made from 100% premium soft cotton, it offers breathability and a great fit. Ideal for layering or wearing on its own.",
     "gallery": [
       "https://example.com/images/tshirt/g1.jpg",
       "https://example.com/images/tshirt/g2.jpg"
@@ -57,7 +57,7 @@
     "brand": "UrbanStride",
     "sku": "SNEAK-U-002",
     "shortDescription": "Breathable, stylish urban sneakers.",
-    "fullDescription": "Walk the city in style with these modern sneakers. They feature a lightweight, breathable mesh upper, a cushioned insole for superior comfort, and a non-slip rubber outsole for maximum durability and grip.",
+    "description": "Walk the city in style with these modern sneakers. They feature a lightweight, breathable mesh upper, a cushioned insole for superior comfort, and a non-slip rubber outsole for maximum durability and grip.",
     "gallery": [
       "https://example.com/images/sneakers/g1.jpg",
       "https://example.com/images/sneakers/g2.jpg"
@@ -99,7 +99,7 @@
     "brand": "Gentry",
     "sku": "WALLET-L-003",
     "shortDescription": "Premium genuine leather bifold wallet.",
-    "fullDescription": "A sophisticated bifold wallet crafted from 100% genuine top-grain leather. It includes 6 card slots, 2 currency sleeves, and a coin pouch. Its slim design fits comfortably in your pocket while offering ample storage.",
+    "description": "A sophisticated bifold wallet crafted from 100% genuine top-grain leather. It includes 6 card slots, 2 currency sleeves, and a coin pouch. Its slim design fits comfortably in your pocket while offering ample storage.",
     "gallery": [
       "https://example.com/images/wallet/g1.jpg",
       "https://example.com/images/wallet/g2.jpg"
@@ -136,7 +136,7 @@
     "brand": "TechTime",
     "sku": "WATCH-D-004",
     "shortDescription": "Water-resistant digital sports watch.",
-    "fullDescription": "Stay on time and on track with this high-performance digital watch. Features include a countdown timer, 5-alarm settings, and 50m water resistance. The durable resin strap and bright LED display make it perfect for any activity.",
+    "description": "Stay on time and on track with this high-performance digital watch. Features include a countdown timer, 5-alarm settings, and 50m water resistance. The durable resin strap and bright LED display make it perfect for any activity.",
     "gallery": [
       "https://example.com/images/watch/g1.jpg",
       "https://example.com/images/watch/g2.jpg"
@@ -173,7 +173,7 @@
     "brand": "DenimElite",
     "sku": "JEANS-D-005",
     "shortDescription": "Slim-fit, classic stretch denim jeans.",
-    "fullDescription": "These timeless jeans offer the perfect balance of style and comfort. Crafted from a cotton-spandex blend, they feature a slim fit through the hip and thigh, a traditional five-pocket design, and a zip fly with button closure.",
+    "description": "These timeless jeans offer the perfect balance of style and comfort. Crafted from a cotton-spandex blend, they feature a slim fit through the hip and thigh, a traditional five-pocket design, and a zip fly with button closure.",
     "gallery": [
       "https://example.com/images/jeans/g1.jpg",
       "https://example.com/images/jeans/g2.jpg"
@@ -213,7 +213,7 @@
     "brand": "Executive",
     "sku": "SHOES-F-006",
     "shortDescription": "Genuine leather oxford dress shoes.",
-    "fullDescription": "Step into sophistication with these genuine leather formal oxford shoes. They feature a polished finish, cushioned lining for all-day wear, and a durable stacked heel. Perfect for business meetings or black-tie events.",
+    "description": "Step into sophistication with these genuine leather formal oxford shoes. They feature a polished finish, cushioned lining for all-day wear, and a durable stacked heel. Perfect for business meetings or black-tie events.",
     "gallery": [
       "https://example.com/images/formalshoes/g1.jpg",
       "https://example.com/images/formalshoes/g2.jpg"
@@ -253,7 +253,7 @@
     "brand": "CozyWear",
     "sku": "HOODIE-C-007",
     "shortDescription": "Fleece-lined, warm pullover hoodie.",
-    "fullDescription": "Wrap yourself in comfort with this essential pullover hoodie. It's made with a heavy-blend cotton/polyester fabric, brushed fleece interior, adjustable drawstring hood, and a large front kangaroo pocket for warmth.",
+    "description": "Wrap yourself in comfort with this essential pullover hoodie. It's made with a heavy-blend cotton/polyester fabric, brushed fleece interior, adjustable drawstring hood, and a large front kangaroo pocket for warmth.",
     "gallery": [
       "https://example.com/images/hoodie/g1.jpg",
       "https://example.com/images/hoodie/g2.jpg"
@@ -294,7 +294,7 @@
     "brand": "SunGuard",
     "sku": "GLASS-S-008",
     "shortDescription": "Polarized, UV protected classic sunglasses.",
-    "fullDescription": "Protect your eyes with our stylish, classic-frame sunglasses. The lenses are polarized to reduce glare and offer 100% UV400 protection. The lightweight, durable polycarbonate frame ensures long-lasting comfort.",
+    "description": "Protect your eyes with our stylish, classic-frame sunglasses. The lenses are polarized to reduce glare and offer 100% UV400 protection. The lightweight, durable polycarbonate frame ensures long-lasting comfort.",
     "gallery": [
       "https://example.com/images/sunglasses/g1.jpg",
       "https://example.com/images/sunglasses/g2.jpg"
@@ -331,7 +331,7 @@
     "brand": "Velocity",
     "sku": "RUNNER-V-009",
     "shortDescription": "Cushioned, high-performance running shoes.",
-    "fullDescription": "Engineered for speed and endurance, these running shoes feature a responsive EnergyFoam midsole for superior energy return and impact absorption. The seamless, breathable mesh upper provides a locked-in fit.",
+    "description": "Engineered for speed and endurance, these running shoes feature a responsive EnergyFoam midsole for superior energy return and impact absorption. The seamless, breathable mesh upper provides a locked-in fit.",
     "gallery": [
       "https://example.com/images/runningshoes/g1.jpg",
       "https://example.com/images/runningshoes/g2.jpg"
@@ -372,7 +372,7 @@
     "brand": "Voyager",
     "sku": "BACKPK-V-010",
     "shortDescription": "Durable, water-resistant travel backpack.",
-    "fullDescription": "The ultimate everyday and travel companion. This backpack is made from durable, water-resistant polyester and features a dedicated 15-inch laptop sleeve, two main compartments, and ergonomic padded shoulder straps for comfort.",
+    "description": "The ultimate everyday and travel companion. This backpack is made from durable, water-resistant polyester and features a dedicated 15-inch laptop sleeve, two main compartments, and ergonomic padded shoulder straps for comfort.",
     "gallery": [
       "https://example.com/images/backpack/g1.jpg",
       "https://example.com/images/backpack/g2.jpg"
@@ -409,7 +409,7 @@
     "brand": "SmartCasual",
     "sku": "POLO-S-011",
     "shortDescription": "Breathable pique knit polo shirt.",
-    "fullDescription": "Elevate your casual wardrobe with this classic polo shirt. Made from a breathable pique knit fabric, it features a ribbed collar, two-button placket, and side vents for a perfect fit. Ideal for a smart-casual setting.",
+    "description": "Elevate your casual wardrobe with this classic polo shirt. Made from a breathable pique knit fabric, it features a ribbed collar, two-button placket, and side vents for a perfect fit. Ideal for a smart-casual setting.",
     "gallery": [
       "https://example.com/images/polo/g1.jpg",
       "https://example.com/images/polo/g2.jpg"
@@ -450,7 +450,7 @@
     "brand": "SummerStep",
     "sku": "SANDAL-S-012",
     "shortDescription": "Adjustable comfort walking sandals.",
-    "fullDescription": "Enjoy the summer with these highly comfortable and practical sandals. They feature durable, adjustable Velcro straps, a contoured, cushioned footbed, and a sturdy traction outsole for all-terrain grip.",
+    "description": "Enjoy the summer with these highly comfortable and practical sandals. They feature durable, adjustable Velcro straps, a contoured, cushioned footbed, and a sturdy traction outsole for all-terrain grip.",
     "gallery": [
       "https://example.com/images/sandals/g1.jpg",
       "https://example.com/images/sandals/g2.jpg"
@@ -489,7 +489,7 @@
     "brand": "SportStyle",
     "sku": "CAP-S-013",
     "shortDescription": "Classic baseball cap, adjustable fit.",
-    "fullDescription": "A versatile baseball cap with a pre-curved visor for sun protection. Made with a durable, breathable cotton twill and featuring an adjustable strap-back closure for a perfect, custom fit.",
+    "description": "A versatile baseball cap with a pre-curved visor for sun protection. Made with a durable, breathable cotton twill and featuring an adjustable strap-back closure for a perfect, custom fit.",
     "gallery": [
       "https://example.com/images/cap/g1.jpg",
       "https://example.com/images/cap/g2.jpg"
@@ -527,7 +527,7 @@
     "brand": "FrostBite",
     "sku": "JKT-W-014",
     "shortDescription": "Insulated, waterproof winter parka.",
-    "fullDescription": "Conquer the cold with this heavy-duty winter jacket. It features thermal insulation, a water- and windproof shell, a detachable hood with faux fur trim, and multiple zippered pockets for secure storage.",
+    "description": "Conquer the cold with this heavy-duty winter jacket. It features thermal insulation, a water- and windproof shell, a detachable hood with faux fur trim, and multiple zippered pockets for secure storage.",
     "gallery": [
       "https://example.com/images/jacket/g1.jpg",
       "https://example.com/images/jacket/g2.jpg"
@@ -566,7 +566,7 @@
     "brand": "TrailBlazer",
     "sku": "BOOTS-A-015",
     "shortDescription": "Rugged leather ankle boots.",
-    "fullDescription": "These versatile ankle boots are crafted from durable, treated leather. The rugged lug outsole provides excellent grip, while the padded collar ensures a comfortable fit around the ankle. Suitable for all-day wear.",
+    "description": "These versatile ankle boots are crafted from durable, treated leather. The rugged lug outsole provides excellent grip, while the padded collar ensures a comfortable fit around the ankle. Suitable for all-day wear.",
     "gallery": [
       "https://example.com/images/ankleboots/g1.jpg",
       "https://example.com/images/ankleboots/g2.jpg"
@@ -606,7 +606,7 @@
     "brand": "KnitCozy",
     "sku": "BEANIE-K-016",
     "shortDescription": "Soft, thick knit winter beanie.",
-    "fullDescription": "Stay warm during the colder months with this soft, acrylic knit beanie. Its deep cuff provides extra warmth over the ears, and the stretchy material ensures a comfortable fit for all head sizes.",
+    "description": "Stay warm during the colder months with this soft, acrylic knit beanie. Its deep cuff provides extra warmth over the ears, and the stretchy material ensures a comfortable fit for all head sizes.",
     "gallery": [
       "https://example.com/images/beanie/g1.jpg",
       "https://example.com/images/beanie/g2.jpg"
@@ -644,7 +644,7 @@
     "brand": "WovenFlex",
     "sku": "CHINOS-W-017",
     "shortDescription": "Wrinkle-resistant straight-fit chinos.",
-    "fullDescription": "These essential chinos are made from a cotton-poly blend with added stretch for maximum mobility and wrinkle resistance. They feature a straight-leg cut, two front slant pockets, and two back welt pockets, offering a polished look for any occasion.",
+    "description": "These essential chinos are made from a cotton-poly blend with added stretch for maximum mobility and wrinkle resistance. They feature a straight-leg cut, two front slant pockets, and two back welt pockets, offering a polished look for any occasion.",
     "gallery": [
       "https://example.com/images/chinos/g1.jpg",
       "https://example.com/images/chinos/g2.jpg"
@@ -683,7 +683,7 @@
     "brand": "Poolside",
     "sku": "FLIP-P-018",
     "shortDescription": "Lightweight, cushioned foam flip flops.",
-    "fullDescription": "The perfect footwear for summer. These flip flops feature a soft, contoured EVA foam sole for lightweight cushioning and a durable rubber strap. They are water-friendly and quick-drying, making them essential for the pool or beach.",
+    "description": "The perfect footwear for summer. These flip flops feature a soft, contoured EVA foam sole for lightweight cushioning and a durable rubber strap. They are water-friendly and quick-drying, making them essential for the pool or beach.",
     "gallery": [
       "https://example.com/images/flipflops/g1.jpg",
       "https://example.com/images/flipflops/g2.jpg"
@@ -723,7 +723,7 @@
     "brand": "StrapStyle",
     "sku": "BELT-L-019",
     "shortDescription": "Genuine leather dress belt.",
-    "fullDescription": "A foundational accessory for any wardrobe. This belt is made from a single strip of high-quality genuine leather, ensuring durability. It features a classic silver-toned buckle and is perfect for both formal and casual pants.",
+    "description": "A foundational accessory for any wardrobe. This belt is made from a single strip of high-quality genuine leather, ensuring durability. It features a classic silver-toned buckle and is perfect for both formal and casual pants.",
     "gallery": [
       "https://example.com/images/belt/g1.jpg",
       "https://example.com/images/belt/g2.jpg"
@@ -762,7 +762,7 @@
     "brand": "ActiveGear",
     "sku": "JKT-S-020",
     "shortDescription": "Moisture-wicking athletic running jacket.",
-    "fullDescription": "Designed for peak performance, this lightweight sports jacket features moisture-wicking technology to keep you dry. It has a full-zip front, thumbholes in the cuffs, and reflective accents for visibility during night runs.",
+    "description": "Designed for peak performance, this lightweight sports jacket features moisture-wicking technology to keep you dry. It has a full-zip front, thumbholes in the cuffs, and reflective accents for visibility during night runs.",
     "gallery": [
       "https://example.com/images/sportsjacket/g1.jpg",
       "https://example.com/images/sportsjacket/g2.jpg"

@@ -169,7 +169,7 @@ const Settings = () => {
                         </div>
 
                         <div className="mt-6 text-center">
-                            <Link to="/manage-sizes" className="inline-block px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700">Manage Sizes</Link>
+                            <Link to="/manage-sizes" className="inline-block w-full px-4 py-2 bg-indigo-600 text-white text-lg rounded hover:bg-indigo-700 dark:bg-orange-500 dark:hover:bg-orange-700 transition">Manage Sizes</Link>
                         </div>
                     </form>
                 </div>

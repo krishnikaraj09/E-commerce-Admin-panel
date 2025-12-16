@@ -47,9 +47,36 @@ const Category = () => {
     };
 
     // Handle image change
+    const uploadToCloudinary = async (file) => {
+        try {
+            const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME;
+            const preset = process.env.REACT_APP_CLOUDINARY_UPLOAD_PRESET;
+            if (!cloudName || !preset) return null;
+            const url = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`;
+            const form = new FormData();
+            form.append('file', file);
+            form.append('upload_preset', preset);
+            const res = await fetch(url, { method: 'POST', body: form });
+            if (!res.ok) throw new Error('Cloudinary upload failed');
+            const data = await res.json();
+            return data.secure_url || data.url || null;
+        } catch (err) {
+            console.warn('Cloudinary upload error:', err);
+            return null;
+        }
+    };
+
     const handleImageChange = async (e) => {
         const file = e.target.files[0];
         if (file) {
+            // Try Cloudinary first (requires REACT_APP_CLOUDINARY_CLOUD_NAME and REACT_APP_CLOUDINARY_UPLOAD_PRESET)
+            const uploaded = await uploadToCloudinary(file);
+            if (uploaded) {
+                setFormData(prev => ({ ...prev, image: uploaded }));
+                return;
+            }
+
+            // Fallback to base64
             const base64 = await fileToBase64(file);
             setFormData(prev => ({ ...prev, image: base64 }));
         }
@@ -159,7 +186,7 @@ const Category = () => {
                         type="file"
                         accept="image/*"
                         onChange={handleImageChange}
-                        className="border border-black rounded w-full p-2 dark:text-black"
+                        className="rounded w-full p-2 dark:text-black bg-white"
                     />
                     {formData.image && (
                         <img src={formData.image} alt="Uploaded" className="my-2 max-h-20" />

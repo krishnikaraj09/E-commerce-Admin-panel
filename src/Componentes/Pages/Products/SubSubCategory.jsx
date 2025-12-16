@@ -159,7 +159,7 @@ const SubSubCategory = () => {
                         type="file"
                         accept="image/*"
                         onChange={handleImageChange}
-                        className="border border-black rounded w-full p-2 dark:text-black"
+                        className="rounded w-full p-2 dark:text-black bg-white"
                     />
                     {formData.image && (
                         <img

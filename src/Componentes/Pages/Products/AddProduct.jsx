@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { validateAddProductForm } from "../../../Validation/addProductValidation";
 import SizesContext from "../../../context/SizesContext";
+import CategoryJSON from "../../../Data/categorydata.json";
 
 // Helper: normalize a string to a simple key
 const keyify = (str) => {
@@ -95,9 +96,39 @@ const AddProduct = () => {
 	};
 
 	// Handler for main image file input
+	// Try uploading to Cloudinary; return secure URL or null
+	const uploadToCloudinary = async (file) => {
+		try {
+			const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME;
+			const preset = process.env.REACT_APP_CLOUDINARY_UPLOAD_PRESET;
+			if (!cloudName || !preset) return null;
+			const url = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`;
+			const form = new FormData();
+			form.append('file', file);
+			form.append('upload_preset', preset);
+			const res = await fetch(url, { method: 'POST', body: form });
+			if (!res.ok) throw new Error('Cloudinary upload failed');
+			const data = await res.json();
+			return data.secure_url || data.url || null;
+		} catch (err) {
+			console.warn('Cloudinary upload error:', err);
+			return null;
+		}
+	};
+
 	const handleImageChange = async (e) => {
 		const file = e.target.files[0];
 		if (file) {
+			try {
+				const uploaded = await uploadToCloudinary(file);
+				if (uploaded) {
+					setImage(uploaded);
+					return;
+				}
+			} catch (err) {
+				console.warn('Cloudinary upload failed, falling back to base64', err);
+			}
+
 			const base64 = await fileToBase64(file);
 			setImage(base64);
 		}
@@ -107,8 +138,13 @@ const AddProduct = () => {
 	const handleGalleryChange = async (e) => {
 		const files = Array.from(e.target.files);
 		if (files.length > 0) {
-			const base64Images = await Promise.all(files.map(fileToBase64));
-			setGallery(base64Images);
+			// Try uploading each to Cloudinary; fallback to base64 per-file
+			const uploads = await Promise.all(files.map(async (f) => {
+				const uploaded = await uploadToCloudinary(f);
+				if (uploaded) return uploaded;
+				return await fileToBase64(f);
+			}));
+			setGallery(uploads);
 		} else {
 			setGallery([]);
 		}
@@ -314,9 +350,15 @@ const AddProduct = () => {
 				setCategories(JSON.parse(stored));
 			} catch (error) {
 				console.error("Error parsing categories from localStorage:", error);
-				setCategories([]);
+				setCategories(CategoryJSON);
+				localStorage.setItem("categories", JSON.stringify(CategoryJSON));
 			}
+		} else {
+			// Fallback to bundled JSON so AddProduct works even if user hasn't visited Category page yet
+			setCategories(CategoryJSON);
+			localStorage.setItem("categories", JSON.stringify(CategoryJSON));
 		}
+
 		const storedProducts = localStorage.getItem("products");
 		if (storedProducts) {
 			setLocalProducts(JSON.parse(storedProducts));
@@ -387,7 +429,7 @@ const AddProduct = () => {
 						type="number"
 						value={categoryId}
 						disabled
-						className="border border-black rounded w-full p-2 dark:text-black" />
+						className="border border-black rounded w-full p-2 dark:text-black dark:bg-white" />
 					{error.categoryId && <p className="text-red-500 text-sm font-semibold">{error.categoryId}</p>}
 				</div>
 				<div>
@@ -475,7 +517,7 @@ const AddProduct = () => {
 						type="file"
 						accept="image/*"
 						onChange={handleImageChange}
-						className="border border-black rounded w-full p-2 dark:text-black"
+						className="border border-black rounded w-full p-2 dark:text-black dark:bg-white"
 					/>
 					{image && (
 						<img
@@ -493,7 +535,7 @@ const AddProduct = () => {
 						accept="image/*"
 						multiple
 						onChange={handleGalleryChange}
-						className="border border-black rounded w-full p-2 dark:text-black"
+						className="border border-black rounded w-full p-2 dark:text-black dark:bg-white"
 					/>
 					<div className="flex flex-wrap gap-2 mt-2">
 						{gallery.map((imgSrc, idx) => (
@@ -526,7 +568,7 @@ const AddProduct = () => {
 											else setSize([...size, sz]);
 										}}
 									/>
-									<span className="text-sm">{sz}</span>
+									<span className="text-xl text-white">{sz}</span>
 								</label>
 							))}
 						</div>

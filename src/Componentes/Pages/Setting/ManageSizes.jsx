@@ -105,14 +105,14 @@ const ManageSizes = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
           <div>
-            <label className="block mb-1 text-sm font-medium">Category</label>
+            <label className="block mb-1 text-sm font-medium dark:text-white">Category</label>
             <select value={category} onChange={e => setCategory(e.target.value)} className="border p-2 rounded w-full">
               {categories.map(k => <option key={k} value={k}>{k}</option>)}
             </select>
           </div>
 
           <div>
-            <label className="block mb-1 text-sm font-medium">Group (e.g., Men/Women)</label>
+            <label className="block mb-1 text-sm font-medium dark:text-white">Group (e.g., Men/Women)</label>
             <select value={group} onChange={e => setGroup(e.target.value)} className="border p-2 rounded w-full">
               <option value="">-- select --</option>
               {groups.map(g => <option key={g} value={g}>{g}</option>)}
@@ -120,7 +120,7 @@ const ManageSizes = () => {
           </div>
 
           <div>
-            <label className="block mb-1 text-sm font-medium">Item (optional)</label>
+            <label className="block mb-1 text-sm font-medium dark:text-white">Item (optional)</label>
             <select value={item} onChange={e => setItem(e.target.value)} className="border p-2 rounded w-full">
               <option value="">(group array)</option>
               {items.map(it => <option key={it} value={it}>{it}</option>)}
@@ -129,7 +129,7 @@ const ManageSizes = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block mb-1 text-sm font-medium">Sizes (comma-separated)</label>
+          <label className="block mb-1 text-sm font-medium dark:text-white">Sizes (comma-separated)</label>
           <textarea rows={4} value={editText} onChange={e => setEditText(e.target.value)} className="border p-2 rounded w-full" />
         </div>
 
@@ -140,8 +140,8 @@ const ManageSizes = () => {
           <button onClick={resetToDefaults} className="px-3 py-2 bg-red-600 text-white rounded">Reset Defaults</button>
         </div>
 
-        <div className="mb-6">
-          <h2 className="font-semibold mb-2">Current Sizes Preview</h2>
+        {/* <div className="mb-6">
+          <h2 className="font-semibold mb-2 dark:text-white">Current Sizes Preview</h2>
           <div className="flex flex-wrap gap-2">
             {currentArray.length > 0 ? currentArray.map(s => (
               <span key={s} className="inline-flex items-center gap-2 bg-gray-100 px-3 py-1 rounded">
@@ -150,11 +150,11 @@ const ManageSizes = () => {
               </span>
             )) : <p className="text-sm text-gray-500">No sizes defined for the selected path.</p>}
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-6">
-          <h3 className="font-semibold mb-2">Category Preview (JSON)</h3>
-          <pre className="text-sm bg-gray-50 dark:bg-gray-800 p-3 rounded max-h-72 overflow-auto">{JSON.stringify(sizes[category] || {}, null, 2)}</pre>
+          <h3 className="font-semibold mb-2 dark:text-white">Category Preview (JSON)</h3>
+          <pre className="text-sm bg-gray-50 dark:bg-gray-400 p-3 rounded max-h-72 overflow-auto ">{JSON.stringify(sizes[category] || {}, null, 2)}</pre>
         </div>
       </div>
     </div>
