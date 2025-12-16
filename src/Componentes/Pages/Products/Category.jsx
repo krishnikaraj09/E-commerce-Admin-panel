@@ -3,44 +3,50 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState, useContext } from 'react';
 import SizesContext from '../../../context/SizesContext';
+import CategoryJSON from '../../../Data/categorydata.json';
 
 const Category = () => {
     const navigate = useNavigate();
+    const { setSizes } = useContext(SizesContext);
 
     const [categories, setCategories] = useState([]);
     const [showForm, setShowForm] = useState(false);
     const [editIndex, setEditIndex] = useState(null);
     const [formData, setFormData] = useState({ name: "", image: "" });
 
-    // Load categories from localStorage
+    // Load categories from localStorage or fallback to JSON
     useEffect(() => {
         const stored = localStorage.getItem("categories");
         if (stored) {
             try {
                 setCategories(JSON.parse(stored));
             } catch (error) {
-                console.error("Error parsing categories from localStorage:", error);
-                setCategories([]);
+                console.error("Error parsing localStorage:", error);
+                setCategories(CategoryJSON);
+                localStorage.setItem("categories", JSON.stringify(CategoryJSON));
             }
+        } else {
+            setCategories(CategoryJSON);
+            localStorage.setItem("categories", JSON.stringify(CategoryJSON));
         }
     }, []);
 
-    // Save categories to localStorage
+    // Save to localStorage
     const saveToLocalStorage = (updatedCategories) => {
         localStorage.setItem("categories", JSON.stringify(updatedCategories));
     };
 
-    // Helper to convert file to base64 string
+    // Convert file to Base64
     const fileToBase64 = (file) => {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
             reader.readAsDataURL(file);
             reader.onload = () => resolve(reader.result);
-            reader.onerror = error => reject(error);
+            reader.onerror = (error) => reject(error);
         });
     };
 
-    // Handler for main image file input: set image into formData
+    // Handle image change
     const handleImageChange = async (e) => {
         const file = e.target.files[0];
         if (file) {
@@ -49,12 +55,9 @@ const Category = () => {
         }
     };
 
-    const { setSizes } = useContext(SizesContext);
-
     // Add/Edit Save
     const handleSave = (e) => {
         e.preventDefault();
-
         if (!formData.name || !formData.image) {
             return alert("All fields are required!");
         }
@@ -62,41 +65,33 @@ const Category = () => {
         let updated = [...categories];
 
         if (editIndex !== null) {
-            updated[editIndex] = formData;
+            updated[editIndex] = { ...formData, id: updated[editIndex].id };
         } else {
-            // Find the max id in existing categories
-            const maxId = categories.length > 0 ? Math.max(...categories.map(cat => Number(cat.id))) : 0;
-            // Assign next sequential id
+            const maxId = categories.length > 0 ? Math.max(...categories.map(c => Number(c.id))) : 0;
             updated.push({ ...formData, id: maxId + 1 });
         }
 
-        // update categories state and storage
         setCategories(updated);
         saveToLocalStorage(updated);
 
-        // Ensure sizes entry exists for this category and handle rename
-        try {
+        // Update sizes
+        setSizes(prev => {
+            const copy = JSON.parse(JSON.stringify(prev || {}));
             const newName = formData.name;
             const originalName = editIndex !== null ? categories[editIndex]?.name : null;
-            setSizes(prev => {
-                const copy = JSON.parse(JSON.stringify(prev || {}));
-                // If renaming, migrate sizes object if exists
-                if (originalName && originalName !== newName) {
-                    if (copy[originalName]) {
-                        copy[newName] = copy[originalName];
-                        delete copy[originalName];
-                    } else if (!copy[newName]) {
-                        copy[newName] = {};
-                    }
-                } else {
-                    // New category or unchanged name: ensure key exists
-                    if (!copy[newName]) copy[newName] = {};
+
+            if (originalName && originalName !== newName) {
+                if (copy[originalName]) {
+                    copy[newName] = copy[originalName];
+                    delete copy[originalName];
+                } else if (!copy[newName]) {
+                    copy[newName] = {};
                 }
-                return copy;
-            });
-        } catch (err) {
-            console.warn('Could not update sizes for category:', err);
-        }
+            } else {
+                if (!copy[newName]) copy[newName] = {};
+            }
+            return copy;
+        });
 
         setFormData({ name: "", image: "" });
         setEditIndex(null);
@@ -113,18 +108,13 @@ const Category = () => {
         setCategories(updated);
         saveToLocalStorage(updated);
 
-        // remove sizes entry for deleted category
-        try {
-            setSizes(prev => {
-                const copy = JSON.parse(JSON.stringify(prev || {}));
-                if (deleted && deleted.name && copy[deleted.name]) {
-                    delete copy[deleted.name];
-                }
-                return copy;
-            });
-        } catch (err) {
-            console.warn('Could not remove sizes for deleted category:', err);
-        }
+        setSizes(prev => {
+            const copy = JSON.parse(JSON.stringify(prev || {}));
+            if (deleted?.name && copy[deleted.name]) {
+                delete copy[deleted.name];
+            }
+            return copy;
+        });
     };
 
     // Edit category
@@ -172,11 +162,7 @@ const Category = () => {
                         className="border border-black rounded w-full p-2 dark:text-black"
                     />
                     {formData.image && (
-                        <img
-                            src={formData.image}
-                            alt="Uploaded Main"
-                            className="my-2 max-h-20"
-                        />
+                        <img src={formData.image} alt="Uploaded" className="my-2 max-h-20" />
                     )}
 
                     <div className='flex gap-2'>
@@ -201,7 +187,7 @@ const Category = () => {
                 ) : (
                     categories.map((category, index) => (
                         <div
-                            key={index}
+                            key={category.id}
                             onClick={() => navigate(`/categories/${category.id}`)}
                             className="bg-zinc-100 shadow-md rounded-md overflow-hidden cursor-pointer hover:bg-zinc-200 relative"
                         >
