@@ -14,7 +14,7 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
 
     const navigate = useNavigate();
 
-    const textBox = "flex items-center bg-white rounded-lg w-72 px-3 py-2 focus-within:ring-2 focus-within:ring-black";
+    const textBox = "flex items-center bg-white rounded-lg w-full max-w-[18rem] px-3 py-2 focus-within:ring-2 focus-within:ring-black";
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -67,7 +67,7 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
                     className="flex flex-col items-center justify-center gap-4"
                 >
                     <div className={textBox}>
-                        <EmailIcon className="mr-2" />
+                        <EmailIcon fontSize="small" className="mr-2 text-gray-500" />
                         <input
                             type="email"
                             placeholder="Enter Email ID"
@@ -77,7 +77,7 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
                         />
                     </div>
                     <div className={textBox}>
-                        <LockIcon className="mr-2" />
+                        <LockIcon fontSize="small" className="mr-2 text-gray-500" />
                         <input
                             type={showPassword ? "text" : "password"}
                             placeholder="Enter Password"
@@ -85,8 +85,8 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
                             onChange={(e) => setPassword(e.target.value)}
                             className="flex-1 outline-none text-gray-700"
                         />
-                        <IconButton onClick={handleClickShowPassword}>
-                            {showPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
+                        <IconButton onClick={handleClickShowPassword} size="small" className="p-0 ml-2">
+                            {showPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
                         </IconButton>
                     </div>
                     <button

@@ -568,7 +568,7 @@ const AddProduct = () => {
 											else setSize([...size, sz]);
 										}}
 									/>
-									<span className="text-xl text-white">{sz}</span>
+									<span className="text-xl dark:text-white">{sz}</span>
 								</label>
 							))}
 						</div>

@@ -101,8 +101,8 @@ const SignUp = () => {
                             onChange={(e) => setPassword(e.target.value)}
                             className="flex-1 outline-none text-gray-700 bg-transparent"
                         />
-                        <IconButton onClick={handleClickShowPassword}>
-                            {showPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
+                        <IconButton onClick={handleClickShowPassword} size="small" className="p-0 ml-2">
+                            {showPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
                         </IconButton>
                     </div>
                     {error.password && <p className='text-red-800 text-base font-semibold text-center'>{error.password}</p>}
@@ -115,8 +115,8 @@ const SignUp = () => {
                             onChange={(e) => setConfirmPassword(e.target.value)}
                             className="flex-1 outline-none text-gray-700 bg-transparent"
                         />
-                        <IconButton onClick={handleClickShowConfirmPassword}>
-                            {showConfirmPassword ? <VisibilityIcon /> : <VisibilityOffIcon />}
+                        <IconButton onClick={handleClickShowPassword} size="small" className="p-0 ml-2">
+                            {showPassword ? <VisibilityIcon fontSize="small" /> : <VisibilityOffIcon fontSize="small" />}
                         </IconButton>
                     </div>
                     {error.confirmPassword && <p className='text-red-800 text-base font-semibold text-center'>{error.confirmPassword}</p>}
