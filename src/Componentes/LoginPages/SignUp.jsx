@@ -6,6 +6,7 @@ import LockIcon from '@mui/icons-material/Lock';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import { IconButton } from '@mui/material';
+import { Link } from 'react-router-dom';
 import { validateUserName, validateEmail, validatePassword, validConfirmPassword } from '../../Validation/authValidation';
 
 const SignUp = () => {
@@ -62,7 +63,7 @@ const SignUp = () => {
                     "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80')",
             }}>
             <div className='absolute inset-0 bg-black/50'></div>
-            <div className="relative w-[85%] sm:w-3/4 md:w-2/3 lg:w-1/3 flex flex-col items-center justify-center p-6 m-4 gap-5 bg-white/30 rounded-2xl shadow-2xl">
+            <div className="relative w-[85%] sm:w-3/4 md:w-2/3 lg:w-1/3 flex flex-col items-center justify-center p-6 m-4 gap-5 bg-white/40 rounded-2xl shadow-2xl">
                 <h1 className="font-bold text-3xl text-white p-3 text-center">
                     Sign Up
                 </h1>
@@ -124,6 +125,7 @@ const SignUp = () => {
                         type="submit">
                         SIGN UP
                     </button>
+                    <p className='text-lg font-bold'>If you already have a account. Please <Link to="/signin" className="text-blue-800 font-bold">sign in</Link></p>
                 </form>
             </div>
         </div>

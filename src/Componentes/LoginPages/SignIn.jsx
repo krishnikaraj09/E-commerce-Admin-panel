@@ -58,7 +58,7 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
                     "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80')",
             }}>
             <div className='absolute inset-0 bg-black/50'></div>
-            <div className="relative w-[85%] sm:w-3/4 md:w-2/3 lg:w-1/3 flex flex-col items-center justify-center p-6 m-4 gap-5 bg-white/30 rounded-2xl shadow-2xl">
+            <div className="relative w-[85%] sm:w-3/4 md:w-2/3 lg:w-1/3 flex flex-col items-center justify-center p-6 m-4 gap-5 bg-white/40 rounded-2xl shadow-2xl">
                 <h1 className="font-bold text-3xl text-white p-3 text-center">
                     Sign In
                 </h1>
@@ -94,7 +94,7 @@ const SignIn = ({ onLoginSuccess,onLogin }) => {
                         type="submit">
                         SIGN IN
                     </button>
-                    <p className='text-lg'>You don't have an account. Please <Link to="/signup" className="text-blue-800 font-bold">sign up</Link></p>
+                    <p className='text-lg font-bold'>You don't have an account. Please <Link to="/signup" className="text-blue-800 font-bold">sign up</Link></p>
                 </form>
             </div>
         </div>
