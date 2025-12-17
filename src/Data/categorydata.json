@@ -201,7 +201,7 @@
                     },
                     {
                         "name": "Rings",
-                        "image": "Assets/Categories/Accessories/ring.webp"
+                        "image": "/Assets/Categories/Accessories/ring.webp"
                     }
                 ]
             },
