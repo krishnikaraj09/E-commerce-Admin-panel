@@ -5,7 +5,6 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import AddIcon from '@mui/icons-material/Add';
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import resolveImage from '../../../Utils/imageResolver';
 
 const ProductList = () => {
     const [product, setProduct] = useState([]);
@@ -105,7 +104,7 @@ const ProductList = () => {
                     <tbody>
                         {paginatedProducts.map((product) => (
                             <tr key={product.id} className="border-b text-gray-600 hover:bg-gray-100 transition duration-200 dark:bg-white/10 dark:text-white dark:hover:bg-white/20">
-                                <td className="py-3 px-4"><img src={resolveImage(product.image)} alt="img" className="w-14 h-14 m-2 rounded" /></td>
+                                <td className="py-3 px-4"><img src={product.image} alt="img" className="w-14 h-14 m-2 rounded" /></td>
                                 <td className="py-3 px-4">{product.name}</td>
                                 <td className="py-3 px-4">{product.category}</td>
                                 <td className="py-3 px-4">₹{product.price.toFixed(2)}</td>
@@ -144,7 +143,7 @@ const ProductList = () => {
                 {paginatedProducts.map((product) => (
                     <div key={product.id} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition duration-200 dark:bg-white/70">
                         <div className="flex items-center gap-4">
-                            <img src={resolveImage(product.image)} alt="img" className="w-16 h-16 rounded" />
+                            <img src={product.image} alt="img" className="w-16 h-16 rounded" />
                             <div className="flex-1">
                                 <h3 className="text-lg font-semibold text-gray-800">{product.name}</h3>
                                 <p className="text-sm text-gray-600">{product.category}</p>

@@ -1,5 +1,4 @@
 import { useNavigate, useParams } from "react-router-dom";
-import resolveImage from '../../../Utils/imageResolver';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
 const CategoryProduct = () => {
@@ -37,7 +36,7 @@ const CategoryProduct = () => {
               className="border rounded-lg shadow p-4 dark:bg-white/60"
             >
               <img
-                src={resolveImage(product.image)}
+                src={product.image}
                 alt={product.name}
                 className="w-full h-48 object-cover rounded mb-4"
               />

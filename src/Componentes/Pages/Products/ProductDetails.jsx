@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
-import resolveImage from '../../../Utils/imageResolver';
 
 const ProductDetails = () => {
     const { id } = useParams();
@@ -22,7 +21,7 @@ const ProductDetails = () => {
         }
         const foundProduct = products.find(p => p.id === Number(id));
         setProduct(foundProduct);
-        setCurrentImage(resolveImage(foundProduct?.image));
+        setCurrentImage(foundProduct?.image);
     }, [id]);
 
     if (!product)
@@ -49,10 +48,10 @@ const ProductDetails = () => {
                                 {product.gallery.map((url, index) => (
                                     <img
                                         key={index}
-                                        src={resolveImage(url)}
+                                        src={url}
                                         alt={`Gallery ${index + 1}`}
                                         className="w-20 md:w-24 mt-2 cursor-pointer rounded-lg"
-                                        onClick={() => setCurrentImage(resolveImage(url))}
+                                        onClick={() => setCurrentImage(url)}
                                     />
                                 ))}
                             </div>
