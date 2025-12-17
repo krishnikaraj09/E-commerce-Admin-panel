@@ -324,13 +324,13 @@
     "reviews": 220,
     "stock": 35,
     "status": "active",
-    "image": "/Assets/Products/10/shopping (53).webp",
+    "image": "/Assets/Products/9/shopping (53).webp",
     "gallery": [
-      "/Assets/Products/10/shopping (53).webp",
-      "/Assets/Products/10/shopping (54).webp",
-      "/Assets/Products/10/shopping (55).webp",
-      "/Assets/Products/10/shopping (56).webp",
-      "/Assets/Products/10/shopping (57).webp"
+      "/Assets/Products/9/shopping (53).webp",
+      "/Assets/Products/9/shopping (54).webp",
+      "/Assets/Products/9/shopping (55).webp",
+      "/Assets/Products/9/shopping (56).webp",
+      "/Assets/Products/9/shopping (57).webp"
     ],
     "brand": "RunFast",
     "sku": "SPORT-009",
@@ -710,13 +710,13 @@
     "reviews": 110,
     "stock": 55,
     "status": "active",
-    "image": "public/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",
+    "image": "/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",git status
     "gallery": [
-      "public/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",
-      "public/Assets/Products/19/shopping - 2025-12-17T131635.175.webp",
-      "public/Assets/Products/19/shopping - 2025-12-17T131646.962.webp",
-      "public/Assets/Products/19/shopping - 2025-12-17T131656.033.webp",
-      "public/Assets/Products/19/shopping - 2025-12-17T131705.971.webp"
+      "/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",
+      "/Assets/Products/19/shopping - 2025-12-17T131635.175.webp",
+      "/Assets/Products/19/shopping - 2025-12-17T131646.962.webp",
+      "/Assets/Products/19/shopping - 2025-12-17T131656.033.webp",
+      "/Assets/Products/19/shopping - 2025-12-17T131705.971.webp"
     ],
     "brand": "BeltPro",
     "sku": "BELT-019",
