@@ -26,8 +26,20 @@
     "sku": "TSHIRT-001",
     "shortDescription": "Soft cotton everyday t-shirt",
     "description": "Comfortable classic cotton t-shirt",
-    "size": ["S", "M", "L", "XL"],
-    "color": ["Black", "White", "Grey"]
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Black",
+      "White",
+      "Grey"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 2,
@@ -45,7 +57,6 @@
     "status": "active",
     "image": "/Assets/Products/2/shopping (6).webp",
     "gallery": [
-      "/Assets/Products/2/shopping.webp",
       "/Assets/Products/2/shopping (6).webp",
       "/Assets/Products/2/shopping (7).webp",
       "/Assets/Products/2/shopping (8).webp",
@@ -56,8 +67,19 @@
     "sku": "SNEAKER-002",
     "shortDescription": "Stylish women sneakers",
     "description": "Comfortable sneakers for daily wear",
-    "size": ["6", "7", "8", "9"],
-    "color": ["White", "Black"]
+    "size": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "color": [
+      "White",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 3,
@@ -73,13 +95,28 @@
     "reviews": 190,
     "stock": 35,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSRv1NBI2ly8gXAo8t9gN6cwKpvf24Y6xGHA&s",
+    "image": "/Assets/Products/3/shopping (22).webp",
+    "gallery": [
+      "/Assets/Products/3/shopping (23).webp",
+      "/Assets/Products/3/shopping (24).webp",
+      "/Assets/Products/3/shopping (25).webp",
+      "/Assets/Products/3/shopping (26).webp",
+      "/Assets/Products/3/shopping (27).webp"
+    ],
     "brand": "Gentry",
     "sku": "WALLET-003",
     "shortDescription": "Genuine leather wallet",
     "description": "Premium quality leather wallet",
-    "size": ["One Size"],
-    "color": ["Brown", "Black"]
+    "size": [
+      "One Size"
+    ],
+    "color": [
+      "Brown",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 4,
@@ -95,13 +132,29 @@
     "reviews": 300,
     "stock": 15,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPj1V_S9RxW3TMOrEXZq9J-jDz5NmwZCOcEA&s",
+    "image": "/Assets/Products/4/shopping (28).webp",
+    "gallery": [
+      "/Assets/Products/4/shopping (28).webp",
+      "/Assets/Products/4/shopping (29).webp",
+      "/Assets/Products/4/shopping (30).webp",
+      "/Assets/Products/4/shopping (31).webp",
+      "/Assets/Products/4/shopping (32).webp",
+      "/Assets/Products/4/shopping (33).webp"
+    ],
     "brand": "TechTime",
     "sku": "WATCH-004",
     "shortDescription": "Digital sports watch",
     "description": "Water resistant digital watch",
-    "size": ["45mm"],
-    "color": ["Black", "Blue"]
+    "size": [
+      "45mm"
+    ],
+    "color": [
+      "Black",
+      "Blue"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 5,
@@ -117,13 +170,30 @@
     "reviews": 210,
     "stock": 40,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8wdkpvTCNUsQ4yjewy-SPM7vKX6xoK94UrQ&s",
+    "image": "/Assets/Products/5/shopping (34).webp",
+    "gallery": [
+      "/Assets/Products/5/shopping (34).webp",
+      "/Assets/Products/5/shopping (35).webp",
+      "/Assets/Products/5/shopping (36).webp",
+      "/Assets/Products/5/shopping (37).webp",
+      "/Assets/Products/5/shopping (38).webp"
+    ],
     "brand": "DenimElite",
     "sku": "JEANS-005",
     "shortDescription": "Slim fit jeans",
     "description": "Stylish slim fit denim jeans",
-    "size": ["30", "32", "34"],
-    "color": ["Blue", "Dark Blue"]
+    "size": [
+      "30",
+      "32",
+      "34"
+    ],
+    "color": [
+      "Blue",
+      "Dark Blue"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 6,
@@ -139,13 +209,31 @@
     "reviews": 130,
     "stock": 25,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUM0YjnTFNj4dHrf_l1HpgUrLjQnzvzGlYvQ&s",
+    "image": "/Assets/Products/6/shopping (39).webp",
+    "gallery": [
+      "/Assets/Products/6/shopping (39).webp",
+      "/Assets/Products/6/shopping (40).webp",
+      "/Assets/Products/6/shopping (41).webp",
+      "/Assets/Products/6/shopping (42).webp",
+      "/Assets/Products/6/shopping (43).webp"
+    ],
     "brand": "Executive",
     "sku": "FORMAL-006",
     "shortDescription": "Office formal shoes",
     "description": "Leather formal shoes",
-    "size": ["8", "9", "10", "11"],
-    "color": ["Black", "Brown"]
+    "size": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "color": [
+      "Black",
+      "Brown"
+    ],
+    "tags": [
+      "New Arrival"
+    ]
   },
   {
     "id": 7,
@@ -161,13 +249,31 @@
     "reviews": 175,
     "stock": 30,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTob-lFFOTnZnxHaLaB7JPF7okEnYqyViiGDg&s",
+    "image": "/Assets/Products/7/shopping (44).webp",
+    "gallery": [
+      "/Assets/Products/7/shopping (44).webp",
+      "/Assets/Products/7/shopping (45).webp",
+      "/Assets/Products/7/shopping (46).webp",
+      "/Assets/Products/7/shopping (47).webp",
+      "/Assets/Products/7/shopping (48).webp",
+      "/Assets/Products/7/shopping (49).webp"
+    ],
     "brand": "CozyWear",
     "sku": "JACKET-007",
     "shortDescription": "Warm winter jacket",
     "description": "Stylish winter jacket",
-    "size": ["M", "L", "XL"],
-    "color": ["Black", "Grey"]
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Black",
+      "Grey"
+    ],
+    "tags": [
+      "Limited Edition"
+    ]
   },
   {
     "id": 8,
@@ -183,13 +289,26 @@
     "reviews": 90,
     "stock": 60,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CAP",
+    "image": "/Assets/Products/8/shopping (50).webp",
+    "gallery": [
+      "/Assets/Products/8/shopping (50).webp",
+      "/Assets/Products/8/shopping (51).webp",
+      "/Assets/Products/8/shopping (52).webp"
+    ],
     "brand": "CapStyle",
     "sku": "CAP-008",
     "shortDescription": "Stylish cap",
     "description": "Casual baseball cap",
-    "size": ["Free Size"],
-    "color": ["Black", "Blue"]
+    "size": [
+      "Free Size"
+    ],
+    "color": [
+      "Black",
+      "Blue"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 9,
@@ -205,13 +324,31 @@
     "reviews": 220,
     "stock": 35,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-SPORT",
+    "image": "/Assets/Products/10/shopping (53).webp",
+    "gallery": [
+      "/Assets/Products/10/shopping (53).webp",
+      "/Assets/Products/10/shopping (54).webp",
+      "/Assets/Products/10/shopping (55).webp",
+      "/Assets/Products/10/shopping (56).webp",
+      "/Assets/Products/10/shopping (57).webp"
+    ],
     "brand": "RunFast",
     "sku": "SPORT-009",
     "shortDescription": "Running sports shoes",
     "description": "Lightweight sports shoes",
-    "size": ["7", "8", "9", "10"],
-    "color": ["Red", "Black"]
+    "size": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 10,
@@ -227,15 +364,29 @@
     "reviews": 180,
     "stock": 28,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BAG",
+    "image": "/Assets/Products/10/shopping (58).webp",
+    "gallery": [
+      "/Assets/Products/10/shopping (58).webp",
+      "/Assets/Products/10/shopping (59).webp",
+      "/Assets/Products/10/shopping (60).webp",
+      "/Assets/Products/10/shopping (61).webp",
+      "/Assets/Products/10/shopping (62).webp"
+    ],
     "brand": "PackPro",
     "sku": "BAG-010",
     "shortDescription": "Travel backpack",
     "description": "Durable travel backpack",
-    "size": ["30L"],
-    "color": ["Black", "Green"]
+    "size": [
+      "30L"
+    ],
+    "color": [
+      "Black",
+      "Green"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
-
   {
     "id": 11,
     "name": "Graphic T-Shirt",
@@ -250,13 +401,29 @@
     "reviews": 140,
     "stock": 45,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/11/shopping (63).webp",
+    "gallery": [
+      "/Assets/Products/11/shopping (63).webp",
+      "/Assets/Products/11/shopping (64).webp",
+      "/Assets/Products/11/shopping (65).webp",
+      "/Assets/Products/11/shopping (66).webp"
+    ],
     "brand": "UrbanWear",
     "sku": "TSHIRT-011",
     "shortDescription": "Printed t-shirt",
     "description": "Trendy graphic t-shirt",
-    "size": ["M", "L", "XL"],
-    "color": ["White", "Black"]
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "White",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 12,
@@ -272,13 +439,31 @@
     "reviews": 85,
     "stock": 50,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/12/shopping (67).webp",
+    "gallery": [
+      "/Assets/Products/12/shopping (67).webp",
+      "/Assets/Products/12/shopping (68).webp",
+      "/Assets/Products/12/shopping (69).webp",
+      "/Assets/Products/12/shopping (70).webp",
+      "/Assets/Products/12/shopping (71).webp"
+    ],
     "brand": "Relaxo",
     "sku": "SANDAL-012",
     "shortDescription": "Comfort sandals",
     "description": "Daily wear sandals",
-    "size": ["7", "8", "9", "10"],
-    "color": ["Brown", "Black"]
+    "size": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "color": [
+      "Brown",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 13,
@@ -294,13 +479,28 @@
     "reviews": 95,
     "stock": 55,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/13/shopping (72).webp",
+    "gallery": [
+      "/Assets/Products/13/shopping (72).webp",
+      "/Assets/Products/13/shopping (73).webp",
+      "/Assets/Products/13/shopping (74).webp",
+      "/Assets/Products/13/shopping (75).webp",
+      "/Assets/Products/13/shopping (76).webp"
+    ],
     "brand": "CapKing",
     "sku": "CAP-013",
     "shortDescription": "Trendy cap",
     "description": "Fashionable cap",
-    "size": ["Free Size"],
-    "color": ["Red", "Black"]
+    "size": [
+      "Free Size"
+    ],
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 14,
@@ -316,13 +516,31 @@
     "reviews": 160,
     "stock": 20,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/14/shopping (77).webp",
+    "gallery": [
+      "/Assets/Products/14/shopping (77).webp",
+      "/Assets/Products/14/shopping (78).webp",
+      "/Assets/Products/14/shopping (79).webp",
+      "/Assets/Products/14/shopping (80).webp",
+      "/Assets/Products/14/shopping (81).webp",
+      "/Assets/Products/14/shopping (82).webp"
+    ],
     "brand": "WinterX",
     "sku": "JACKET-014",
     "shortDescription": "Bomber jacket",
     "description": "Stylish bomber jacket",
-    "size": ["M", "L", "XL"],
-    "color": ["Black", "Olive"]
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Black",
+      "Olive"
+    ],
+    "tags": [
+      "Limited Edition"
+    ]
   },
   {
     "id": 15,
@@ -338,13 +556,29 @@
     "reviews": 145,
     "stock": 30,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/15/shopping (83).webp",
+    "gallery": [
+      "/Assets/Products/15/shopping (83).webp",
+      "/Assets/Products/15/shopping (84).webp",
+      "/Assets/Products/15/shopping (85).webp",
+      "/Assets/Products/15/shopping (86).webp"
+    ],
     "brand": "DailyWalk",
     "sku": "CASUAL-015",
     "shortDescription": "Casual shoes",
     "description": "Comfortable casual shoes",
-    "size": ["8", "9", "10"],
-    "color": ["Grey", "Blue"]
+    "size": [
+      "8",
+      "9",
+      "10"
+    ],
+    "color": [
+      "Grey",
+      "Blue"
+    ],
+    "tags": [
+      "New Arrival"
+    ]
   },
   {
     "id": 16,
@@ -360,13 +594,28 @@
     "reviews": 88,
     "stock": 65,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/16/shopping (87).webp",
+    "gallery": [
+      "/Assets/Products/16/shopping (6).webp",
+      "/Assets/Products/16/shopping (87).webp",
+      "/Assets/Products/16/shopping (88).webp",
+      "/Assets/Products/16/shopping (89).webp",
+      "/Assets/Products/16/shopping (90).webp"
+    ],
     "brand": "Sporty",
     "sku": "CAP-016",
     "shortDescription": "Sports cap",
     "description": "Breathable sports cap",
-    "size": ["Free Size"],
-    "color": ["Blue", "Black"]
+    "size": [
+      "Free Size"
+    ],
+    "color": [
+      "Blue",
+      "Black"
+    ],
+    "tags": [
+      "New Arrival"
+    ]
   },
   {
     "id": 17,
@@ -382,13 +631,30 @@
     "reviews": 130,
     "stock": 40,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/17/shopping (91).webp",
+    "gallery": [
+      "/Assets/Products/17/shopping (91).webp",
+      "/Assets/Products/17/shopping (92).webp",
+      "/Assets/Products/17/shopping (93).webp",
+      "/Assets/Products/17/shopping (94).webp",
+      "/Assets/Products/17/shopping (95).webp"
+    ],
     "brand": "OfficeWear",
     "sku": "TROUSER-017",
     "shortDescription": "Formal trousers",
     "description": "Office wear trousers",
-    "size": ["30", "32", "34"],
-    "color": ["Black", "Grey"]
+    "size": [
+      "30",
+      "32",
+      "34"
+    ],
+    "color": [
+      "Black",
+      "Grey"
+    ],
+    "tags": [
+      "Best Seller"
+    ]
   },
   {
     "id": 18,
@@ -404,13 +670,31 @@
     "reviews": 92,
     "stock": 45,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/18/shopping (96).webp",
+    "gallery": [
+      "/Assets/Products/18/shopping.webp",
+      "/Assets/Products/18/shopping (96).webp",
+      "/Assets/Products/18/shopping (97).webp",
+      "/Assets/Products/18/shopping (98).webp",
+      "/Assets/Products/18/shopping (99).webp",
+      "/Assets/Products/18/shopping (100).webp"
+    ],
     "brand": "ComfortWalk",
     "sku": "SANDAL-018",
     "shortDescription": "Outdoor sandals",
     "description": "Comfortable outdoor sandals",
-    "size": ["7", "8", "9"],
-    "color": ["Brown", "Black"]
+    "size": [
+      "7",
+      "8",
+      "9"
+    ],
+    "color": [
+      "Brown",
+      "Black"
+    ],
+    "tags": [
+      "New Arrival"
+    ]
   },
   {
     "id": 19,
@@ -426,13 +710,31 @@
     "reviews": 110,
     "stock": 55,
     "status": "active",
-    "image": "",
+    "image": "public/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",
+    "gallery": [
+      "public/Assets/Products/19/shopping - 2025-12-17T131627.190.webp",
+      "public/Assets/Products/19/shopping - 2025-12-17T131635.175.webp",
+      "public/Assets/Products/19/shopping - 2025-12-17T131646.962.webp",
+      "public/Assets/Products/19/shopping - 2025-12-17T131656.033.webp",
+      "public/Assets/Products/19/shopping - 2025-12-17T131705.971.webp"
+    ],
     "brand": "BeltPro",
     "sku": "BELT-019",
     "shortDescription": "Leather belt",
     "description": "Premium leather belt",
-    "size": ["32", "34", "36"],
-    "color": ["Black", "Brown"]
+    "size": [
+      "32",
+      "34",
+      "36"
+    ],
+    "color": [
+      "Black",
+      "Brown"
+    ],
+    "tags": [
+      "Best Seller",
+      "Limited Edition"
+    ]
   },
   {
     "id": 20,
@@ -448,12 +750,29 @@
     "reviews": 150,
     "stock": 25,
     "status": "active",
-    "image": "",
+    "image": "/Assets/Products/20/shopping - 2025-12-17T131810.280.webp",
+    "gallery": [
+      "/Assets/Products/20/shopping - 2025-12-17T131810.280.webp",
+      "/Assets/Products/20/shopping - 2025-12-17T131815.837.webp",
+      "/Assets/Products/20/shopping - 2025-12-17T131821.845.webp",
+      "/Assets/Products/20/shopping - 2025-12-17T131828.223.webp",
+      "/Assets/Products/20/shopping - 2025-12-17T131836.325.webp"
+    ],
     "brand": "DenimCo",
     "sku": "JACKET-020",
     "shortDescription": "Denim jacket",
     "description": "Classic denim jacket",
-    "size": ["M", "L", "XL"],
-    "color": ["Blue"]
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "tags": [
+      "New Arrival",
+      "Best Seller"
+    ]
   }
 ]
