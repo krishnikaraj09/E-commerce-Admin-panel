@@ -48,7 +48,7 @@ const Category = () => {
 
     // Handle image change
     const uploadToCloudinary = async (file) => {
-        try {
+        try {   
             const cloudName = process.env.REACT_APP_CLOUDINARY_CLOUD_NAME;
             const preset = process.env.REACT_APP_CLOUDINARY_UPLOAD_PRESET;
             if (!cloudName || !preset) return null;

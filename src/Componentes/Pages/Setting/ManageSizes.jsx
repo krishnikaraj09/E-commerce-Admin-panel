@@ -87,10 +87,10 @@ const ManageSizes = () => {
     setEditText(next.join(", "));
   };
 
-  const removeSize = (val) => {
-    const next = currentArray.filter(s => s !== val);
-    setEditText(next.join(", "));
-  };
+  // const removeSize = (val) => {
+  //   const next = currentArray.filter(s => s !== val);
+  //   setEditText(next.join(", "));
+  // };
 
   const resetToDefaults = () => {
     if (!category) return;
