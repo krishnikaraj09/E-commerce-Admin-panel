@@ -99,11 +99,11 @@ const ManageSizes = () => {
   };
 
   return (
-    <div className="p-6 bg-white dark:bg-slate-900 min-h-screen">
-      <div className="max-w-3xl mx-auto">
+    <div className="p-4 sm:p-6 bg-white dark:bg-slate-900 min-h-screen">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <h1 className="text-2xl font-bold text-blue-900 dark:text-white mb-4">Manage Sizes</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
           <div>
             <label className="block mb-1 text-sm font-medium dark:text-white">Category</label>
             <select value={category} onChange={e => setCategory(e.target.value)} className="border p-2 rounded w-full">
@@ -130,14 +130,14 @@ const ManageSizes = () => {
 
         <div className="mb-4">
           <label className="block mb-1 text-sm font-medium dark:text-white">Sizes (comma-separated)</label>
-          <textarea rows={4} value={editText} onChange={e => setEditText(e.target.value)} className="border p-2 rounded w-full" />
+          <textarea rows={4} value={editText} onChange={e => setEditText(e.target.value)} className="border p-2 rounded w-full resize-none" />
         </div>
 
-        <div className="flex items-center gap-3 mb-4">
-          <input id="singleSize" placeholder="Add single size (e.g. XL)" className="border p-2 rounded flex-1" />
-          <button onClick={() => { const el = document.getElementById('singleSize'); addSingleSize(el.value); el.value=''; }} className="px-3 py-2 bg-blue-600 text-white rounded">Add</button>
-          <button onClick={saveChanges} className="px-3 py-2 bg-green-600 text-white rounded">Save</button>
-          <button onClick={resetToDefaults} className="px-3 py-2 bg-red-600 text-white rounded">Reset Defaults</button>
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-4">
+          <input id="singleSize" placeholder="Add single size (e.g. XL)" className="border p-2 rounded flex-grow w-full mb-2 sm:mb-0" />
+          <button onClick={() => { const el = document.getElementById('singleSize'); addSingleSize(el.value); el.value=''; }} className="px-3 py-2 bg-blue-600 text-white rounded w-full sm:w-auto">Add</button>
+          <button onClick={saveChanges} className="px-3 py-2 bg-green-600 text-white rounded w-full sm:w-auto">Save</button>
+          <button onClick={resetToDefaults} className="px-3 py-2 bg-red-600 text-white rounded w-full sm:w-auto">Reset Defaults</button>
         </div>
 
         {/* <div className="mb-6">
@@ -154,7 +154,7 @@ const ManageSizes = () => {
 
         <div className="mt-6">
           <h3 className="font-semibold mb-2 dark:text-white">Category Preview (JSON)</h3>
-          <pre className="text-sm bg-gray-50 dark:bg-gray-400 p-3 rounded max-h-72 overflow-auto ">{JSON.stringify(sizes[category] || {}, null, 2)}</pre>
+          <pre className="text-sm bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-gray-100 p-3 rounded max-h-72 overflow-auto break-words">{JSON.stringify(sizes[category] || {}, null, 2)}</pre>
         </div>
       </div>
     </div>
