@@ -13,14 +13,14 @@
     "reviews": 120,
     "stock": 50,
     "status": "active",
-    "image": "src/Assets/Products/1/shopping.webp",
+    "image": "/Assets/Products/1/shopping.webp",
     "gallery": [
-      "src/Assets/Products/1/shopping.webp",
-      "src/Assets/Products/1/shopping (1).webp",
-      "src/Assets/Products/1/shopping (2).webp",
-      "src/Assets/Products/1/shopping (3).webp",
-      "src/Assets/Products/1/shopping (4).webp",
-      "src/Assets/Products/1/shopping (5).webp"
+      "/Assets/Products/1/shopping.webp",
+      "/Assets/Products/1/shopping (1).webp",
+      "/Assets/Products/1/shopping (2).webp",
+      "/Assets/Products/1/shopping (3).webp",
+      "/Assets/Products/1/shopping (4).webp",
+      "/Assets/Products/1/shopping (5).webp"
     ],
     "brand": "Cotton Comfort",
     "sku": "TSHIRT-001",
@@ -43,14 +43,14 @@
     "reviews": 250,
     "stock": 20,
     "status": "active",
-    "image": "src/Assets/Products/1/shopping.webp",
+    "image": "/Assets/Products/2/shopping (6).webp",
     "gallery": [
-      "src/Assets/Products/1/shopping.webp",
-      "src/Assets/Products/1/shopping (1).webp",
-      "src/Assets/Products/1/shopping (2).webp",
-      "src/Assets/Products/1/shopping (3).webp",
-      "src/Assets/Products/1/shopping (4).webp",
-      "src/Assets/Products/1/shopping (10).webp"
+      "/Assets/Products/2/shopping.webp",
+      "/Assets/Products/2/shopping (6).webp",
+      "/Assets/Products/2/shopping (7).webp",
+      "/Assets/Products/2/shopping (8).webp",
+      "/Assets/Products/2/shopping (9).webp",
+      "/Assets/Products/2/shopping (10).webp"
     ],
     "brand": "UrbanStride",
     "sku": "SNEAKER-002",
