@@ -43,7 +43,15 @@
     "reviews": 250,
     "stock": 20,
     "status": "active",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkFriWhAAgsPesRJTrlqG0TnpQ9ohmNAL4-A&s",
+    "image": "src/Assets/Products/1/shopping.webp",
+    "gallery": [
+      "src/Assets/Products/1/shopping.webp",
+      "src/Assets/Products/1/shopping (1).webp",
+      "src/Assets/Products/1/shopping (2).webp",
+      "src/Assets/Products/1/shopping (3).webp",
+      "src/Assets/Products/1/shopping (4).webp",
+      "src/Assets/Products/1/shopping (5).webp"
+    ],
     "brand": "UrbanStride",
     "sku": "SNEAKER-002",
     "shortDescription": "Stylish women sneakers",
